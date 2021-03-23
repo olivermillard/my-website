@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  font-family: "Lexend";
+  overflow: hidden;
+}
+
+#sideBar {
+  background-color: black;
+  width: 15vw;
+  height: 100vh;
+  position: top;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#profileContainer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#profilePicContainer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#profilePic{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+}
+
+#infoContainer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#sidebarName{
+  color: white;
+  align-self: center;
+  height: 15px;
+}
+
+
+#socialIconsContainer{
+  width: 50%;
+  align-self: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+
+#iconContainer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.icon{
+  width: 24px;
+}
