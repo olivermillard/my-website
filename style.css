@@ -52,7 +52,6 @@ body {
   height: 15px;
 }
 
-
 #socialIconsContainer{
   width: 50%;
   align-self: center;
@@ -61,13 +60,21 @@ body {
   justify-content: space-evenly;
 }
 
-
-#iconContainer{
+#navContainer{
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
 }
+
 .icon{
   width: 24px;
+}
+.iconButton{
+  width: 24px;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
